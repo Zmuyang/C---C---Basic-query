@@ -51,7 +51,5 @@ int main(){
 	strcmp(str1,str2); // 返回两个字符串大小的比较结果，按字典序
 	strcpy(str1,str2); //把 str2 复制给 str1
 	strcat(str1,str2); //把 str2 接到 str1 后面  
-	sscanf(str1,"%d",&n); // 把字符数组 str1 中的内容以 "%d" 的形式从左至右写到 n中
-	sprintf(str1,"%d",n); // 把 n 以 %d 的格式从右至左写到 str1中， 
 	return 0;
 }
